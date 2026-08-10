@@ -1,0 +1,24 @@
+{
+  "name": "discord-apps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discord/discord.py.git"
+  },
+  "bugs": {
+    "url": "https://github.com/discord/discord.py/issues"
+  },
+  "homepage": "https://github.com/discord/discord.py#readme"
+}

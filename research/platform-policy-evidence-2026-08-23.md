@@ -47,6 +47,15 @@ verification 2026-08-01; corrections are marked **CORRECTED**.
 4. SEO landing page on Vercel for problem-keyword searches — buildable now; no platform AI-content restriction found on hosting code/docs.
 KILLED: anything requiring DM blasts (Developer Policy Rule 5), fake-activity auto-posting (Rule 13), or follow/like automation on other networks (house law 2026-04-16).
 
+## 6. Independent re-verification — Channel cycle, 2026-08-23 ~14:00Z
+Re-fetched every load-bearing source myself (webfetch, HTTP 200). Sections 1–5 stand unmodified:
+- Developer Policy: Rules 5/13/21 + price-parity quote verbatim on page. NO rule requires disclosing AI usage; NO rule bans AI-built apps. Only AI-specific rule is Rule 21 (training on message content). CORRECTED claim #1 stands.
+- enabling-monetization.md: checklist verbatim ("App uses slash commands..." acceptable); Stripe payouts; payout eligible after first $100; US/EU/UK only.
+- App Directory Content Requirements: public Privacy Policy + ToS mandatory; no age-restricted content; no IP-violating name/description/commands.
+- App Verification: "Verification is required for your app to scale past 100 servers"; team-owner identity via Stripe (government-ID = stays with Ben).
+- top.gg homepage fetched live: full active directory (promoted slots, trending/new lists, news feed). CORRECTED claim #2 stands ("top.gg shut down" false). Live page also shows competitor AI-companion/AI-bot listings running openly (Mambu, Superuser) — corroborates no AI-content ban on either surface. ToS page still unread (403 to machines); do not cite its specifics.
+- Gap found vs ranking: channel 3 (GitHub README install surface) not yet shipped — README.md is dev-setup prose only. Queued this cycle.
+
 ## Hard constraints carried into all listings/copy
 - Never the words 'AI-powered' (brand rule) — also keeps us clear of any AI-disclosure drift.
 - Slash-command voice; no mascot.

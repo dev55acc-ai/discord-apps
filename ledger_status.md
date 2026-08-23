@@ -1,5 +1,6 @@
 # Discord Apps Ledger & Status Report
-Date: 2026-08-23 13:16 UTC (re-verified at source this cycle)
+Date: 2026-08-23 14:39 UTC (re-verified at source this cycle)
+- **2026-08-23 14:39 UTC product-owner re-verification (independent tool calls)**: `bot_ctl.sh status` → running pid 691950; `curl GET /users/@me` → 200 Faber#4312 (`1497643725029900418`); guild commands GET-back 200 (`ping`, `map`, `audit`); `node tests/handlers_test.js` → `{"ok":true,"passed":9}`; fresh POST to test channel → **1541094720279937175** (author Faber). Task e9f4587e verified done by the owner's own calls, not prose.
 
 ## Revenue & Financial Ledger
 - **Actual Revenue**: $0.00

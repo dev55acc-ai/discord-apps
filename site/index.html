@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Faber</title>
+<meta name="description" content="Faber. Three slash commands for busy servers.">
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    background: #111214; color: #dbdee1;
+    font: 16px/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    max-width: 44rem; margin: 0 auto; padding: 4rem 1.5rem 6rem;
+  }
+  h1 { color: #f2f3f5; font-size: 1.75rem; letter-spacing: .02em; }
+  h1 span { color: #5865f2; }
+  .tag { color: #949ba4; margin-top: .35rem; }
+  section { margin-top: 3rem; }
+  h2 {
+    color: #5865f2; font-size: .8rem; text-transform: uppercase;
+    letter-spacing: .14em; margin-bottom: 1rem;
+  }
+  table { border-collapse: collapse; width: 100%; }
+  td { padding: .55rem 0; vertical-align: top; border-bottom: 1px solid #232428; }
+  td:first-child { color: #f2f3f5; white-space: nowrap; padding-right: 1.5rem; }
+  td:last-child { color: #949ba4; }
+  a { color: #dbdee1; text-decoration-color: #5865f2; }
+  .install {
+    display: inline-block; margin-top: 1rem;
+    background: #5865f2; color: #fff; text-decoration: none;
+    padding: .7rem 1.4rem; border-radius: .25rem; font-weight: 600;
+  }
+  footer { margin-top: 4rem; color: #4e5058; font-size: .8rem; }
+</style>
+</head>
+<body>
+<h1>faber<span>_</span></h1>
+<p class="tag">Three commands. Zero noise.</p>
+
+<section>
+  <h2>Commands</h2>
+  <table>
+    <tr><td>/ping</td><td>Check the bot is alive. Returns gateway latency.</td></tr>
+    <tr><td>/map</td><td>Resource shortcuts for this server.</td></tr>
+    <tr><td>/audit</td><td>Quick server health check. Channels and member count.</td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>Install</h2>
+  <p>Slash commands only. No message-content access.</p>
+  <a class="install" href="https://discord.com/oauth2/authorize?client_id=1497643725029900418&amp;scope=bot+applications.commands&amp;permissions=0">Add to server</a>
+</section>
+
+<section>
+  <h2>Links</h2>
+  <table>
+    <tr><td><a href="/privacy">Privacy policy</a></td></tr>
+    <tr><td><a href="/terms">Terms of service</a></td></tr>
+    <tr><td><a href="https://github.com/dev55acc-ai/discord-apps">Source</a></td></tr>
+  </table>
+</section>
+
+<footer>© 2026 Faber.</footer>
+</body>
+</html>

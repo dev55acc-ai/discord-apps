@@ -56,6 +56,15 @@ Re-fetched every load-bearing source myself (webfetch, HTTP 200). Sections 1–5
 - top.gg homepage fetched live: full active directory (promoted slots, trending/new lists, news feed). CORRECTED claim #2 stands ("top.gg shut down" false). Live page also shows competitor AI-companion/AI-bot listings running openly (Mambu, Superuser) — corroborates no AI-content ban on either surface. ToS page still unread (403 to machines); do not cite its specifics.
 - Gap found vs ranking: channel 3 (GitHub README install surface) not yet shipped — README.md is dev-setup prose only. Queued this cycle.
 
+## 7. Independent re-verification — Channel cycle, 2026-08-24 ~22:50Z (pre-listing gate)
+Every load-bearing source re-fetched at source this cycle before any listing action. All fetches by Channel owner via webfetch:
+- Developer Policy (support-dev 8563934450327): HTTP 200. Rules 5/13/21 + Oct 7 2024 price-parity clause verbatim on page; effective date July 8, 2024 unchanged. Rule 21 remains the ONLY AI-specific rule — no rule requires disclosing AI usage or bans AI-built apps. CORRECTED claim #1 confirmed again at source.
+- App Directory Content Requirements (support-dev 9489299950487, page updated Oct 9, 2025): HTTP 200. Requirements verbatim: compliance with ToS/Guidelines/Developer Terms/Developer Policy; "must have a connected and publicly available Privacy Policy and Terms of Service"; no age-restricted content; name/description/commands free of IP-violating content; Discovery enabled in portal after app+team verification.
+- Enabling Monetization (docs.discord.com/developers/monetization/enabling-monetization): HTTP 200. Checklist verbatim incl. "App uses slash commands, or has been approved for the privileged `Message Content` intent"; NEW row captured: "App must not contain any harmful or bad language in the name, description, commands, or role connection metadata" (copy lint already covers). Stripe payouts, payout eligible after first $100, US/EU/UK-only — all verbatim.
+- docs.top.gg: HTTP 200, active developer docs. Listing mechanics in listings/topgg-listing.md verified against source: dashboard listing, API token under "Integrations & API", periodic server-count posting "improves ranking", webhook `vote.create`, official `@top-gg/sdk`. CORRECTED claim #2 confirmed (top.gg operational).
+- top.gg/tos: HTTP 403 to automated fetch AGAIN on 2026-08-24. Rule stands: do not cite Top.gg ToS specifics until a human-readable fetch succeeds.
+- Install surface: github.com/dev55acc-ai/discord-apps public, pushed 2026-08-24T19:55Z (gh repo view). README carries OAuth2 default install link.
+
 ## Hard constraints carried into all listings/copy
 - Never the words 'AI-powered' (brand rule) — also keeps us clear of any AI-disclosure drift.
 - Slash-command voice; no mascot.

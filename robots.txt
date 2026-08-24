@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://discord-apps.vercel.app/sitemap.xml

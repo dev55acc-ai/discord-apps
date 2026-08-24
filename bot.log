@@ -17,3 +17,6 @@ nohup: failed to run command './scripts/run_with_discord_creds.py': Permission d
 {"step":"bot_ready","tag":"Faber#4312","id":"1497643725029900418","guilds":[{"id":"1497647324720009408","name":"DAF"}],"ts":"2026-08-24T19:29:11.691Z"}
 (node:1552672) DeprecationWarning: The ready event has been renamed to clientReady to distinguish it from the gateway READY event and will only emit under that name in v15. Please use clientReady instead.
 (Use `node --trace-deprecation ...` to show where the warning was created)
+{"step":"bot_ready","tag":"Faber#4312","id":"1497643725029900418","guilds":[{"id":"1497647324720009408","name":"DAF"}],"ts":"2026-08-24T19:53:38.887Z"}
+(node:1563588) DeprecationWarning: The ready event has been renamed to clientReady to distinguish it from the gateway READY event and will only emit under that name in v15. Please use clientReady instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)

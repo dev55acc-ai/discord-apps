@@ -1,16 +1,16 @@
 # Revenue Report — Discord Apps
-Date: 2026-08-23 16:11 UTC
-Source: live Stripe API (GET /v1/charges, /v1/customers, /v1/subscriptions, /v1/products, /v1/prices, /v1/balance_transactions, /v1/payment_intents, /v1/invoices), key injected via with-creds.
+Date: 2026-08-23 22:27 UTC (fresh API read this cycle)
+Source: live Stripe API (GET /v1/balance_transactions, /v1/payment_intents, /v1/customers, /v1/products), key injected via with-creds. Stripe CLI absent; curl used.
 
 ## Discord Apps revenue this cycle: $0.00
 
-What the real records contain:
+What the real records contain (read 2026-08-23 22:24 UTC):
 
-- **Discord Apps products:** 0 (42 active products scanned; 0 match "discord")
-- **Discord Apps prices:** 0 (41 prices scanned; 0 match "discord")
-- **Discord Apps charges:** 0
-- **Subscriptions (account-wide):** 0
-- **Invoices (account-wide):** 0
+- **Discord Apps products:** 0 (50 products scanned; 0 match "discord")
+- **Balance transactions account-wide:** 4 total — two +140 payments, two −140 refunds; net $0.00
+- **Payment intents account-wide:** 2 succeeded, both amount 100 ($1.00), ids pi_3ThG88… and pi_3ThIV3… — both refunded per balance rows above
+- **Customers account-wide:** 1 — cus_V0V8joNPNtqQrc, name "VET INTERNAL METER TEST — not a real customer", email vet-meter-test@davidandrewfurniture.com. Not a Discord Apps customer.
+- **Subscriptions / invoices:** 0 (unchanged from prior reads)
 
 Account-wide context, for completeness:
 

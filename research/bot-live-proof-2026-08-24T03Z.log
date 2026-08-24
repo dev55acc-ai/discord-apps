@@ -1,0 +1,19 @@
+{"step": "auth", "status": 200, "bot_username": "Faber", "bot_id": "1497643725029900418", "body": null}
+{"step": "guild_register", "guild_id": "1497647324720009408", "status": 200, "registered": ["ping", "map", "audit"]}
+{"step": "guild_verify", "status": 200, "count": 3, "names": ["ping", "map", "audit"]}
+{"step": "global_register", "status": 200, "registered": ["ping", "map", "audit"]}
+◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+{
+ "step": "gateway_ready",
+ "bot_tag": "Faber#4312",
+ "bot_id": "1497643725029900418",
+ "connected_guilds": [
+  {
+   "id": "1497647324720009408",
+   "name": "DAF",
+   "memberCount": 2
+  }
+ ],
+ "on_test_guild": true
+}
+{"step":"bot_ctl","running":true,"pid":1218600,"last_ready":{"step":"bot_ready","tag":"Faber#4312","id":"1497643725029900418","guilds":[{"id":"1497647324720009408","name":"DAF"}],"ts":"2026-08-24T03:04:38.503Z"}}

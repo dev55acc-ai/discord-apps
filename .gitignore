@@ -2,3 +2,4 @@ discord-api-docs/
 bot.log
 .bot.pid
 node_modules/
+.vercel

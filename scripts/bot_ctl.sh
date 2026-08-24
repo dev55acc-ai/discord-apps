@@ -16,7 +16,8 @@ start() {
     echo "{\"step\":\"bot_ctl\",\"action\":\"start\",\"ok\":true,\"already_running\":true,\"pid\":$(cat "$PIDFILE")}"
     return
   fi
-  nohup ./scripts/run_with_discord_creds.py node bot.js >>"$LOG" 2>&1 &
+  # setsid: new session + process group, so host teardown can't SIGKILL the bot
+  nohup setsid ./scripts/run_with_discord_creds.py node bot.js >>"$LOG" 2>&1 &
   echo $! >"$PIDFILE"
   sleep 3
   if is_running; then

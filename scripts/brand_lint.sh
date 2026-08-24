@@ -7,7 +7,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-DIRS=(site publish docs README.md)
+DIRS=(site publish docs public README.md index.html)
 PATTERNS=(
   "ai-powered"
   "artificial intelligence"
